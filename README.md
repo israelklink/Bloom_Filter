@@ -1,3 +1,4 @@
+![logo do Bloom](https://www.andreinc.net/assets/images/2022-03-01-on-implementing-bloom-filters-in-c/bloomexplained.drawio.png)
 
 # Bloom Filter
 
