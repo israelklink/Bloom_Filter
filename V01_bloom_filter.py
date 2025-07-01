@@ -45,9 +45,14 @@ bloom_filter.add("maca")
 bloom_filter.add("banana")
 bloom_filter.add("melancia")
 
-print("melancia" in bloom_filter)
-print("pear" in bloom_filter)
-print("orange" in bloom_filter)
-print("banana" in bloom_filter)
-print("maca" in bloom_filter)
-print("laranja" in bloom_filter)
+
+for word in ["maca", "pera", "laranja", "banana", "melancia"]:
+    print(f"'{word}' está no bloom_filter? {'Sim' if word in bloom_filter else 'Não'}")
+
+
+# print("melancia" in bloom_filter)
+# print("pear" in bloom_filter)
+# print("orange" in bloom_filter)
+# print("banana" in bloom_filter)
+# print("maca" in bloom_filter)
+# print("laranja" in bloom_filter)
